@@ -1,21 +1,22 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
-
+ls
 # 2 - What is the command for changing directories?
-
+cd
 # 3 - What is the command for going "up" a folder (to a parent directory)?
-
+cd ..
 # 4 - What is a quick way to create a new folder?
-
+Use the command "mkdir folder_name" without the quotations.
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-
+If the folder is empty it doesn't present anything and goes down a line, almost like you just hit return. If the folder contains files, it presents a list of the files and folders contained in it.
 # 6 - What is a quick way to create a new file?
-
+Use the command "touch file_name" without the quotes
 # 7 - Run 'git --version' in your terminal. What is the output?
-
+git version 2.30.1 (Apple Git-130) 
 # 8 - Why would you run the command 'git status'?
-
+To check if files have changed since your last commit. If you have saved any changes the file should appear in red if you haven't staged it via "git add ." or "git add file_name". 
 # 9 - What does the command 'git add .' do?
-
+"git add ." adds all of the files that have changed or are new to the staging area so that they're ready to be committed. Although I'm not totally sure what the staging area really is or where it lives.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+"git push -u origin master" My understanding is that git pushes the changes you've committed to the remote connection labeled origin from your master branch on your computer. I'm going to do a bit of reading on this to make sure I understand it.
