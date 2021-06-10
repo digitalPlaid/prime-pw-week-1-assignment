@@ -31,6 +31,9 @@ footer  {
 /* Make your p tag a different color and italic */
 p {
     font-style: italic;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
 
 }
 /* Put a border around your image */
