@@ -39,6 +39,7 @@ p {
 /* Put a border around your image */
 img {
     border: solid 5px lightseagreen;
+    margin-left: 100px;
 }
 /* Change the font-family of your list */
 li {
